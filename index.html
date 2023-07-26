@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1><br>Coco Bambu</h1>
+    </header>
+
+    <main>
+            <h1>Cardápio Semanal</h1>
+            <br><br>
+        <div class="cardapio">
+            <select id="diaDaSemana">
+                <option value="">Selecione um dia</option>
+                <option value="segunda-feira">Segunda-feira</option>
+                <option value="terca-feira">Terça-feira</option>
+                <option value="quarta-feira">Quarta-feira</option>
+                <option value="quinta-feira">Quinta-feira</option>
+                <option value="sexta-feira">Sexta-feira</option>
+                <option value="sabado">Sábado</option>
+                <option value="domingo">Domingo</option>
+            </select>
+            <input type="text" id="itemCardapio" placeholder="Digite o item do cardápio">
+            <button id="btnAdicionar">Adicionar</button>
+        </div>
+        <ul id="listaCardapio"></ul>
+        <br><br><br><br><br>
+        <h1>Calculadora de IMC</h1>
+        <br><br>
+        <div class="calculadora-imc">
+            <input type="number" id="peso" placeholder="Peso (kg)">
+            <input type="number" id="altura" placeholder="Altura (m)">
+            <button id="btnCalcularIMC">Calcular IMC</button>
+        </div>
+        <p id="resultadoIMC"></p>
+    
+    </main>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
